@@ -24,25 +24,39 @@ header {
     z-index: 199;
 }
 
+header > div {
+    width: 1000px;
+    margin: 0 auto;
+}
+
 header .left,
-header.right {
+header .right {
     width: 50%;
     text-align: right;
     float: left;
 }
 
+header .left {
+    float: left;
+}
+
 header .right {
-    text-align: center;
+    text-align: right;
     font-family: "Microsoft Yahei";
     font-size: .9em;
 }
 
 header a {
-    margin: 0 10px;
+    margin: 0 7px;
     width: 82px;
     height: 14px;
     display: inline-block;
     background-repeat: no-repeat;
+}
+
+header .right a {
+    width: 62px;
+    height: 24px;
 }
 
 #header_a1 {
@@ -105,13 +119,13 @@ header a {
 #main_head .right {
     width: 50%;
     float: left;
-    text-align: center;
+    text-align: left;
     padding-top: 20px
 }
 
 #main_head .right {
     height: 74px;
-    text-align: center;
+    text-align: right;
     vertical-align: middle;
     line-height: 60px;
 }
@@ -142,6 +156,7 @@ header a {
     display: inline-block;
     background: url('../images/img_22.jpg') right;
     margin: -10.5px;
+    margin-right: 0;
 }
 
 #main_head .right .hotWords {
@@ -149,6 +164,8 @@ header a {
     font-size: .8em;
     text-align: left;
     color: rgb(94, 94, 94);
+    height: 20px;
+    margin-top: -10px;
 }
 
 .main_container {
@@ -156,8 +173,8 @@ header a {
 }
 
 .hotWords .words {
-    width: 230px;
-    margin: 0 auto;
+    width: 100%;
+    text-align: right;
 }
 
 .words span {
