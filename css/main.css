@@ -689,3 +689,11 @@ footer .bottom {
     margin: 0 auto;
     padding: 20px;
 }
+
+
+.fix{
+    position: fixed;
+    bottom:100px;
+    right: 100px;
+    width: 60px;
+}
