@@ -5,13 +5,35 @@
 
         }
 
-        h3,
-        h4 {
+        h3 {
             margin: 0;
-            padding: 5px;
-            border-bottom: 1px rgb(213, 213, 213) solid;
-           width: 100%;
-           text-align: left;
+            padding: 5px 0;
+            border-bottom: 1px #d7d7d7 solid;
+            width: 100%;
+            font-weight:normal;
+            font-size: 16px;
+            color: #333333;
+            text-align: left;
+        }
+        h4{
+            margin: 0;
+            padding: 5px 0;
+            border-bottom: 1px #d7d7d7 solid;
+            width: 100%;
+            font-weight:normal;
+            font-size: 14px;
+            color: #333333;
+            text-align: left;
+        }
+
+        }
+        #GameGift span{
+
+           margin-top: 5px;
+           float: right;
+           font-size: 18px;
+           color: #ff6600;
+           border: 1px solid red;
         }
 
         header {
@@ -131,8 +153,9 @@
             background: url('../images/img02_12.jpg') no-repeat
         }
 
-        .guanggao {
-            width: 100%;
+        .close img{
+            position: relative; top:34px ;left:81.5%;
+
         }
 
         #main_head,
@@ -239,6 +262,7 @@
             width: 100%;
             height: 35px;
             background-color: rgb(255, 102, 0);
+            margin-top: -30px;
 
         }
         .container_menu {
@@ -409,7 +433,7 @@
         .quick_up dl{padding-left: 20px;color: #333333;}
         .new_hot dl a{color: #333333;}
         .weight dl a{color: #333333;}
-                    .quick_up dl a{color: #333333;}
+        .quick_up dl a{color: #333333;}
         .new_hot dl a:hover{color: #ff6600;text-decoration:underline;}
         .weight dl a:hover{color: #ff6600;text-decoration:underline;}
         .quick_up dl a:hover{color: #ff6600;text-decoration:underline;}
@@ -444,8 +468,8 @@
             font-size: 10px;
             margin-top: 8px;
         }
-        .qrcode{color: #ff6600;height:116px; }
-        .qrcode img{text-align:center; margin-left: 35px;margin-top: 10px;}
+         #goodGames .qrcode{color: #ff6600;height:116px; }
+         #goodGames .qrcode img{text-align:center; margin-left: 35px;margin-top: 10px;}
 
         #goodGames dt {
             display: flex;
@@ -463,6 +487,7 @@
             width: 155px;
             height: 145px;
             margin-top:10px;
+            background: #f5f5f5;
         }
 
         #goodGames .qrcode {
@@ -471,18 +496,18 @@
             border-bottom: 1px rgb(255, 102, 0) solid;
         }
 
-        .qrcode p {
+        #goodGames .qrcode p {
             margin: 0;
             text-align: center;
         }
         
-        .game:hover .qrcode {
+        #goodGames .game:hover .qrcode {
             transform: translateY(-120px);
         }
         
      
 
-        .download {
+        #goodGames .download {
             display: flex;
             flex-flow: row wrap;
             -webkit-flex-flow: row wrap;
@@ -495,56 +520,58 @@
         }
 
         #goodGames,
-        #newGames {
+        #gameGift {
             float: left;
             box-sizing: border-box;
         }
 
-        #newGames {
+        #gameGift {
             width: 30%;
             padding-left: 10px;
+            margin-top: -22px;
+
         }
 
-        #newGames dl{
+        #gameGift dl{
             margin-top: 10px;
         }
-        #newGames dd {
+        #gameGift dd {
             border: 1px rgb(213, 213, 213) solid;
             padding: 10px;
             box-sizing: border-box;
             height: 110px;
-            margin: 13px 0;
+            margin: 15px 0;
         }
 
-        #newGames p {
+        #gameGift p {
             margin: 2px 0 6px 5px;
             line-height: 14px;
         }
 
-        #newGames dd div {
+        #gameGift dd div {
             width: 55%;
             float: left;
         }
 
-        #newGames dd img {
+        #gameGift dd img {
             width: 40%;
             float: left;
             display: inline-block;
             margin-top: 5px;
         }
 
-        #newGames dd p {
+        #gameGift dd p {
             font-size: 12px;
             color: #999999;
         }
 
-        #newGames dd p:nth-child(1) {
+        #gameGift dd p:nth-child(1) {
             font-size: 12px;
             color: #333333;
             font-weight: bold;
         }
 
-        #newGames dd a {
+        #gameGift dd a {
             display: inline-block;
             background-color: rgb(77, 195, 237);
             color: white;
@@ -552,11 +579,21 @@
             font-size:12px;
             padding: 2px 5px;
             margin-left: 8px;
+
+        }
+        #newGames{
+            position: relative;top: 5px;
+            float: right;
+            font-size: 16px;
+            color: #333333;
+            
         }
 
-        #newGames dd a.receive {
+
+        #gameGift dd a.receive {
             background-color: rgb(255, 102, 0);
         }
+        #hotGoodGames{width: 980px}
 
         .tab_title {
             margin-top: 15px;
@@ -567,9 +604,9 @@
             border-top: 1px rgb(213, 213, 213) solid;
             border-bottom: 1px rgb(213, 213, 213) solid;
             border-right: 1px rgb(213, 213, 213) solid;
-            font-size: 1.2em;
+            font-size: 14px;
             padding: 10px 25px;
-            margin-left: -5px;
+            margin-left: -4px;
             display: inline-block;
             cursor: pointer;
             background:-webkit-gradient(linear, left top, left bottom, from(#FFFFFF), color-stop(0.5, rgb(252, 252, 252)), to(rgb(242, 242, 242)))
@@ -584,14 +621,79 @@
             width: 100%;
             border: 1px rgb(213, 213, 213) solid;
             border-right: 1px rgb(213, 213, 213) solid;
-            height: 400px;
+            height: 370px;
+            margin-top: -6px;
         }
 
         .tab_title span.active {
             border-top: 1px rgb(10, 187, 252) solid;
-            height: 26px;
+            height: 20px;
             border-bottom: none;
         }
+
+
+ #hotGoodGames .game {
+            font-size: 10px;
+            height: 116px;
+            width: 155px;
+            overflow: hidden;
+        }
+        #hotGoodGames .download{
+            font-size: 10px;
+            margin-top: 20px;
+        }
+        #hotGoodGames .qrcode{color: #ff6600;height:116px; }
+        #hotGoodGames .qrcode img{text-align:center; margin-left: 35px;margin-top: 10px;}
+
+        #hotGoodGames dt {
+            display: flex;
+            flex-flow: row wrap;
+            -webkit-flex-flow: row wrap;
+            -webkit-align-items: stretch;
+            -webkit-justify-content: space-between;
+            display: -webkit-box;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+        }
+
+        #hotGoodGames dl {
+            width: 175px;
+            height: 160px;
+            margin-top:10px;
+            background: #f5f5f5;
+        }
+
+        #hotGoodGames .qrcode {
+            background-color: white;
+            transition: .5s;
+            border-bottom: 1px rgb(255, 102, 0) solid;
+        }
+
+        #hotGoodGames .qrcode p {
+            margin: 0;
+            text-align: center;
+        }
+        
+        #hotGoodGames .game:hover .qrcode {
+            transform: translateY(-137px);
+        }
+        
+     
+
+        #hotGoodGames .download {
+            display: flex;
+            flex-flow: row wrap;
+            -webkit-flex-flow: row wrap;
+            -webkit-align-items: stretch;
+            -webkit-justify-content: space-between;
+            display: -webkit-box;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+        }
+
+
 
         #specialGames div {
             display: flex;
@@ -610,12 +712,13 @@
             display: inline-block;
             height: 30px;
             width: 128px;
-            color: white;
+            color: #ffffff;
             text-align: center;
             line-height: 30px;
+            font-size: 12px;
             margin-bottom: 10px;
         }
-
+       
         #specialGames a.red {
             background: url('../images/img_58.jpg') no-repeat;
         }
@@ -666,7 +769,7 @@
             list-style: none;
             border-bottom: 1px rgb(213, 213, 213) dashed;
             *display: inline-block;
-            font-size: .9em;
+            font-size: 12px;
             height: 31px;
             overflow: hidden;
             transition: height .5s;
@@ -705,7 +808,7 @@
         }
 
         #rankList li:hover .info {
-            transform: translateY(-30px);
+            transform: translateY(-25px);
         }
 
         #rankList li:before {
@@ -718,6 +821,22 @@
             text-align: center;
             padding: 3px;
             margin: 5px 20px 5px 0;
+        }
+        #rankList .rank1 ol{
+            margin-top: 5px;
+           
+        }
+             #rankList .rank2 ol{
+            margin-top: 5px;
+           
+        }
+             #rankList .rank3 ol{
+            margin-top: 5px;
+           
+        }
+             #rankList .rank4 ol{
+            margin-top: 5px;
+           
         }
 
         #rankList .rank1 ol li:nth-child(1):before {
@@ -745,61 +864,61 @@
         }
 
         #rankList .rank3 ol li:nth-child(1):before {
-            background-color: rgb(21, 236, 203);
+            background-color: rgb(122, 202, 255);
         }
 
         #rankList .rank3 ol li:nth-child(2):before {
-            background-color: rgb(21, 236, 203);
+            background-color: rgb(122, 202, 255);
         }
 
         #rankList .rank3 ol li:nth-child(3):before {
-            background-color: rgb(21, 236, 203);
+            background-color: rgb(122, 202, 255);
         }
 
         #rankList .rank4 ol li:nth-child(1):before {
-            background-color: blue;
+            background-color: #003399;
         }
 
         #rankList .rank4 ol li:nth-child(2):before {
-            background-color: blue;
+            background-color:  #003399;
         }
 
         #rankList .rank4 ol li:nth-child(3):before {
-            background-color: blue;
+            background-color:  #003399;
         }
 
         #rankList h4:before {
             content: ' ';
-            height: 20px;
+            height: 15px;
             width: 4px;
             position: relative;
-            top: 4px;
+            top: 2px;
             margin-right: 10px;
             display: inline-block;
         }
 
         .rank1 h4:before {
-            background-color: rgb(255, 102, 0);
+            background-color: #ff6600;
         }
 
         .rank2 h4:before {
-            background-color: rgb(255, 180, 44);
+            background-color: #ffcc33;
         }
 
         .rank3 h4:before {
-            background-color: rgb(21, 236, 203);
+            background-color: #66ccff;
         }
 
         .rank4 h4:before {
-            background-color: blue;
+            background-color: #003399;
         }
 
         footer {
             width: 100%;
-            height: 300px;
+            height: 240px;
             background: rgb(65, 65, 65);
-            color: gray;
-            font-size: .9em;
+            color: #898989;
+            font-size: 12px;
         }
 
         footer div {
@@ -812,11 +931,11 @@
             padding: 20px 10px;
             height: 60%;
             box-sizing: border-box;
-            border-bottom: 1px rgb(145, 145, 145) dashed;
+            border-bottom: 1px rgb(131, 131, 131) dashed;
         }
 
         footer .top .left {
-            width: 200px;
+            width:150px;
             float: left;
             height: 100%;
         }
@@ -831,7 +950,7 @@
         }
 
         footer .top .left a {
-            background: url('../images/img02_23.jpg');
+            background: url('../images/img02_23.png');
         }
 
         footer .bottom {
