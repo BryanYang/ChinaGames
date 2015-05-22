@@ -64,7 +64,6 @@ header > div {
 }
 .headmenu_1 a {
     text-decoration: none;
-      color: #333333;
 }
 .headmenu_1 a:hover {
     color: #ff6600;
@@ -225,13 +224,8 @@ header .right a:hover {
 }
 .guanggao {
     width: 100%;
-    margin-top: -30px;
-}
-.bg_container{
-
-     width: 100%;
     background-color: rgb(255, 102, 0);
-    height: 35px;
+    margin-top: -30px;
 }
 .container_menu {
     margin: 0 auto;
@@ -612,10 +606,6 @@ menu li:hover {
     display: -moz-box;
     display: -ms-flexbox;
     display: -webkit-flex;
-}
-#specialGames{
-
-    margin-top: 10px;
 }
 #specialGames div {
     display: flex;
