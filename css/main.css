@@ -2,993 +2,1455 @@
             width: 100%;
             margin: 0 auto;
             font-family: "Microsoft Yahei";
-
         }
-
+        
         h3 {
             margin: 0;
             padding: 5px 0;
             border-bottom: 1px #d7d7d7 solid;
             width: 100%;
-            font-weight:normal;
+            font-weight: normal;
             font-size: 16px;
             color: #333333;
             text-align: left;
         }
-        h4{
+        
+        h4 {
             margin: 0;
             padding: 5px 0;
             border-bottom: 1px #d7d7d7 solid;
             width: 100%;
-            font-weight:normal;
+            font-weight: normal;
             font-size: 14px;
             color: #333333;
             text-align: left;
         }
-
-        }
-        #GameGift span{
-
-           margin-top: 5px;
-           float: right;
-           font-size: 18px;
-           color: #ff6600;
-           border: 1px solid red;
-        }
-
-        header {
-            background: #f5f5f5;
-            height:35px;
-            line-height:35px;
-            width: 100%;
-            min-width: 980px;
-            top: 0;
-            left: 0;
-            box-shadow: 1px 0 2px #333333;
-            position: fixed;
-            z-index: 199;
-        }
-
-        header > div {
-            margin: 0 auto;
-            width: 980px;
-            height: 30px;
-        }
-        .headmenu{
-            margin: 0px;
-            padding: 0px;
-            color: #333333;
-
-        }
-        .headmenu li {
-            list-style: none;
-            float: left;
-            font-size: 12px;
-           margin-right: 14px; 
-           color: #333333;
-
-        }
-        .headmenu_1 a{
-            text-decoration: none;
-        }
-        .headmenu_1 a:hover{
-
-            color: #ff6600;
-            text-decoration:underline;
-        }
-        header .left{
-         width: 60%;
-            text-align: right;
-            float: left;
-
-        }
-
-        header .right {
-            width: 40%;
-            text-align: right;
-            float: left;
-        }
-
-        header .left {
-            float: left;
-        }
-
-        header .right {
-            text-align: right;
-            font-family: "Microsoft Yahei";
-            font-size: 12px;
-        }
-
-        header a {
-            margin: 0;
-            display: inline-block;
-            background-repeat: no-repeat;
-        }
-
-        header .right a {
-           margin-left: 25px;
-        }
-        header .right a:hover{
-            color: #ff6600;
-            text-decoration:underline;
-        }
-
-        #header_a1 {
-            background: url('../images/img_03.jpg') no-repeat
-        }
-
-        #header_a1:hover {
-            background: url('../images/img02_03.jpg') no-repeat
-        }
-
-        #header_a2 {
-            background: url('../images/img_05.jpg') no-repeat
-        }
-
-        #header_a2:hover {
-            background: url('../images/img02_05.jpg') no-repeat
-        }
-
-        #header_a3 {
-            background: url('../images/img_08.jpg') no-repeat
-        }
-
-        #header_a3:hover {
-            background: url('../images/img02_08.jpg') no-repeat
-        }
-
-        #header_a4 {
-            background: url('../images/img_10.jpg') no-repeat
-        }
-
-        #header_a4:hover {
-            background: url('../images/img02_10.jpg') no-repeat
-        }
-
-        #header_a5 {
-            background: url('../images/img_12.jpg') no-repeat
-        }
-
-        #header_a5:hover {
-            background: url('../images/img02_12.jpg') no-repeat
-        }
-
-        .close img{
-            position: relative; top:34px ;left:81.5%;
-
-        }
-
-        #main_head,
-        .main_container {
-            width: 980px;
-            margin: 0 auto;
-        }
-
-        #main_head {
-            height: 110px;
-            clear: both;
-            margin-top: 25px;
-        }
-
-        #main_head .left,
-        #main_head .right {
-            width: 50%;
-            float: left;
-            text-align: left;
-            padding-top: 20px
-        }
-
-        #main_head .left img:hover{
-              -webkit-animation-name: shake-hard;
-          -ms-animation-name: shake-hard;
-          animation-name: shake-hard;
-          -webkit-animation-duration: 100ms;
-          -ms-animation-duration: 100ms;
-          animation-duration: 100ms;
-          -webkit-animation-iteration-count: infinite;
-          -ms-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-          -webkit-animation-timing-function: ease-in-out;
-          -ms-animation-timing-function: ease-in-out;
-          animation-timing-function: ease-in-out;
-          -webkit-animation-delay: 0s;
-          -ms-animation-delay: 0s;
-          animation-delay: 0s;
-          -webkit-animation-play-state: running;
-          -ms-animation-play-state: running;
-          animation-play-state: running;
-        }
-
-        #main_head .right {
-            height: 74px;
-            text-align: right;
-            vertical-align: middle;
-            line-height: 60px;
-        }
-
-        #search input[type="text"] {
-            width: 200px;
-            height: 26px;
-            line-height: 25px;
-            BORDER-RIGHT: rgb(255, 102, 0) 1px solid;
-            BORDER-TOP: rgb(255, 102, 0) 1px solid;
-            FONT-SIZE: .9em;
-            BORDER-LEFT: rgb(255, 102, 0) 1px solid;
-            COLOR: #000000;
-            BORDER-BOTTOM: rgb(255, 102, 0) 1px solid;
-            outline: none;
-            font-family: "Microsoft Yahei";
-            padding: 2px;
-            transition: .2s;
-        }
-
-        #search input[type="text"]:focus {
-            width: 300px;
-        }
-
-        #search_btn {
-            height: 33px;
-            width: 40px;
-            display: inline-block;
-            background: url('../images/img_22.jpg') right;
-            margin: -12px;
-            margin-right: 0;
-        }
-
-        #main_head .right .hotWords {
-            line-height: 15px;
-            text-align: left;
-            color: rgb(94, 94, 94);
-            height: 20px;
-            margin-top: -10px;
-            font-size: 12px;
-        }
-
-        .main_container {
-            margin-top: 0px;
-        }
-
-        .hotWords .words {
-            width: 100%;
-            text-align: right;
-            margin-top: 10px;
-
-        }
-
-        .words span {
-            margin: 0;
-        }
-        .guanggao{
-            width: 100%;
-            height: 35px;
-            background-color: rgb(255, 102, 0);
-            margin-top: -30px;
-
-        }
-        .container_menu {
-            margin:0 auto;
-            padding: 0px;
-            width: 980px;
-            height: 100%;
-            font-size: 16px;
-        }
-
-        menu {
-            width: 980px;
-            height: 100%;
-            list-style: none;
-            margin: 0;
-        }         
-
-        menu li {
-            display: inline-block;
-            float: left;
-            width: 140px;
-            height: 35px;
-            cursor: pointer;
-            line-height: 35px;
-            transition: .5s;
-            margin: 0px;
-           
-        }
-        menu li a{
-            text-align: center;
-            margin-left: 38px;
-            color: #FFFFFF;
-            text-decoration: none;
-
-        }
-        menu li:hover {
-            background-color: rgb(255, 184, 0);
-        }
-
-        #lunbo {
-            width: 100%;
-        }
-
-        #lunbo img {
-            width: 100%;
-        }
-        #hotGames{
-            margin-top: 275px;
-        }
-
-        #hotGames dl {
-            display: flex;
-            flex-flow: row wrap;
-            -webkit-flex-flow: row wrap;
-            -webkit-align-items: stretch;
-            -webkit-justify-content: space-between;
-            display: -webkit-box;
-            display: -moz-box;
-            display: -ms-flexbox;
-            display: -webkit-flex;
-        }
-
-        .hot_games {
-            margin: 10px 0;
-            width: 230px;
-            cursor: pointer;
-            border: 1px #fbf9f8 solid;
-            background: #fbf9f8;
-            transition:.5s;
-        }
-        #hotGames .top{margin-top: 5px;}
-        .hot_games:hover{
-            border: 1px rgb(255, 102, 0) solid;
-            box-sizing:content-box;
-        }
-        .info{
-          width: 100%;
-          font-size: 12px;
-        }
-        .info .link a{margin-top: 6px;margin-bottom: 8px;}
-        .info .rank li {
-            list-style: none;
-            float: left;
-            text-align: center;
-            color: #ff6600;
-        }
-        .rank .rank2{
+    }
+    #GameGift span {
+        margin-top: 5px;
+        float: right;
+        font-size: 18px;
+        color: #ff6600;
+        border: 1px solid red;
+    }
+    header {
+        background: #f5f5f5;
+        height: 35px;
+        line-height: 35px;
+        width: 100%;
+        min-width: 980px;
+        top: 0;
+        left: 0;
+        box-shadow: 1px 0 2px #333333;
+        position: fixed;
+        z-index: 199;
+    }
+    header > div {
+        margin: 0 auto;
+        width: 980px;
+        height: 30px;
+    }
+    .headmenu {
+        margin: 0px;
+        padding: 0px;
+        color: #333333;
+    }
+    .headmenu li {
+        list-style: none;
+        float: left;
+        font-size: 12px;
+        margin-right: 14px;
+        color: #333333;
+    }
+    .headmenu_1 a {
+        text-decoration: none;
+    }
+    .headmenu_1 a:hover {
+        color: #ff6600;
+        text-decoration: underline;
+    }
+    header .left {
+        width: 60%;
+        text-align: right;
+        float: left;
+    }
+    header .right {
+        width: 40%;
+        text-align: right;
+        float: left;
+    }
+    header .left {
+        float: left;
+    }
+    header .right {
+        text-align: right;
+        font-family: "Microsoft Yahei";
+        font-size: 12px;
+    }
+    header a {
+        margin: 0;
+        display: inline-block;
+        background-repeat: no-repeat;
+    }
+    header .right a {
+        margin-left: 25px;
+    }
+    header .right a:hover {
+        color: #ff6600;
+        text-decoration: underline;
+    }
+    #header_a1 {
+        background: url('../images/img_03.jpg') no-repeat
+    }
+    #header_a1:hover {
+        background: url('../images/img02_03.jpg') no-repeat
+    }
+    #header_a2 {
+        background: url('../images/img_05.jpg') no-repeat
+    }
+    #header_a2:hover {
+        background: url('../images/img02_05.jpg') no-repeat
+    }
+    #header_a3 {
+        background: url('../images/img_08.jpg') no-repeat
+    }
+    #header_a3:hover {
+        background: url('../images/img02_08.jpg') no-repeat
+    }
+    #header_a4 {
+        background: url('../images/img_10.jpg') no-repeat
+    }
+    #header_a4:hover {
+        background: url('../images/img02_10.jpg') no-repeat
+    }
+    #header_a5 {
+        background: url('../images/img_12.jpg') no-repeat
+    }
+    #header_a5:hover {
+        background: url('../images/img02_12.jpg') no-repeat
+    }
+    .close img {
+        position: relative;
+        top: 34px;
+        left: 81.5%;
+    }
+    #main_head,
+    .main_container {
+        width: 980px;
+        margin: 0 auto;
+    }
+    #main_head {
+        height: 110px;
+        clear: both;
+        margin-top: 25px;
+    }
+    #main_head .left,
+    #main_head .right {
+        width: 50%;
+        float: left;
+        text-align: left;
+        padding-top: 20px
+    }
+    #main_head .left img:hover {
+        -webkit-animation-name: shake-hard;
+        -ms-animation-name: shake-hard;
+        animation-name: shake-hard;
+        -webkit-animation-duration: 100ms;
+        -ms-animation-duration: 100ms;
+        animation-duration: 100ms;
+        -webkit-animation-iteration-count: infinite;
+        -ms-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+        -webkit-animation-timing-function: ease-in-out;
+        -ms-animation-timing-function: ease-in-out;
+        animation-timing-function: ease-in-out;
+        -webkit-animation-delay: 0s;
+        -ms-animation-delay: 0s;
+        animation-delay: 0s;
+        -webkit-animation-play-state: running;
+        -ms-animation-play-state: running;
+        animation-play-state: running;
+    }
+    #main_head .right {
+        height: 74px;
+        text-align: right;
+        vertical-align: middle;
+        line-height: 60px;
+    }
+    #search input[type="text"] {
+        width: 200px;
+        height: 26px;
+        line-height: 25px;
+        BORDER-RIGHT: rgb(255, 102, 0) 1px solid;
+        BORDER-TOP: rgb(255, 102, 0) 1px solid;
+        FONT-SIZE: .9em;
+        BORDER-LEFT: rgb(255, 102, 0) 1px solid;
+        COLOR: #000000;
+        BORDER-BOTTOM: rgb(255, 102, 0) 1px solid;
+        outline: none;
+        font-family: "Microsoft Yahei";
+        padding: 2px;
+        transition: .2s;
+    }
+    #search input[type="text"]:focus {
+        width: 300px;
+    }
+    #search_btn {
+        height: 33px;
+        width: 40px;
+        display: inline-block;
+        background: url('../images/img_22.jpg') right;
+        margin: -12px;
+        margin-right: 0;
+    }
+    #main_head .right .hotWords {
+        line-height: 15px;
+        text-align: left;
+        color: rgb(94, 94, 94);
+        height: 20px;
+        margin-top: -10px;
+        font-size: 12px;
+    }
+    .main_container {
+        margin-top: 0px;
+    }
+    .hotWords .words {
+        width: 100%;
+        text-align: right;
+        margin-top: 10px;
+    }
+    .words span {
+        margin: 0;
+    }
+    .guanggao {
+        width: 100%;
+        background-color: rgb(255, 102, 0);
+        margin-top: -30px;
+    }
+    .container_menu {
+        margin: 0 auto;
+        padding: 0px;
+        width: 980px;
+        height: 100%;
+        font-size: 16px;
+    }
+    menu {
+        width: 980px;
+        height: 100%;
+        list-style: none;
+        margin: 0;
+    }
+    menu li {
+        display: inline-block;
+        float: left;
+        width: 140px;
+        height: 35px;
+        cursor: pointer;
+        line-height: 35px;
+        transition: .5s;
+        margin: 0px;
+    }
+    menu li a {
+        text-align: center;
+        margin-left: 38px;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+    menu li:hover {
+        background-color: rgb(255, 184, 0);
+    }
+    #lunbo {
+        width: 100%;
+    }
+    #lunbo img {
+        width: 100%;
+    }
+  
+    #hotGames dl {
+        display: flex;
+        flex-flow: row wrap;
+        -webkit-flex-flow: row wrap;
+        -webkit-align-items: stretch;
+        -webkit-justify-content: space-between;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+    }
+    .hot_games {
+        margin: 10px 0;
+        width: 230px;
+        cursor: pointer;
+        border: 1px #fbf9f8 solid;
+        background: #fbf9f8;
+        transition: .5s;
+    }
+    #hotGames .top {
+        margin-top: 5px;
+    }
+    .hot_games:hover {
+        border: 1px rgb(255, 102, 0) solid;
+        box-sizing: content-box;
+    }
+    .info {
+        width: 100%;
+        font-size: 12px;
+    }
+    .info .link a {
+        margin-top: 6px;
+        margin-bottom: 8px;
+    }
+    .info .rank li {
+        list-style: none;
+        float: left;
+        text-align: center;
+        color: #ff6600;
+    }
+    .rank .rank2 {
         padding-left: 47px;
-        }
-        .rank .rank3{
+    }
+    .rank .rank3 {
         padding-left: 49px;
-        }
-
-        .info .rank span:nth-child(1) {
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-            display: inline-block;
-            float: left;
-            color: rgb(255, 102, 0);
-        }
-
-        .info .rank span:nth-child(2) {
-            display: inline-block;
-            float: left;
-            margin-left: 20px;
-            color: rgb(255, 102, 0);
-        }
-
-        .info .rank span:nth-child(3) {
-            display: inline-block;
-            float: right;
-        }
-
-        .info .link a:nth-child(1) {
-            display: inline-block;
-            float: left;
-        }
-
-        .info .link a:nth-child(2) {
-            display: inline-block;
-            float: right;
-        }
-
-        #hotGames .bottom div {
-            margin: 10px 0;
-            font-size: 12px;
-        }
-
-        #hotGames .bottom label {
-            width: 70px;
-            height: 23px;
-            display: inline-block;
-            line-height: 23px;
-            text-align: center;
-            color: white;
-            float: left;
-        }
-
-        .new_hot dl {padding-left: 20px;color: #333333;}
-        .weight dl{padding-left: 20px;color: #333333;}
-        .quick_up dl{padding-left: 20px;color: #333333;}
-        .new_hot dl a{color: #333333;}
-        .weight dl a{color: #333333;}
-        .quick_up dl a{color: #333333;}
-        .new_hot dl a:hover{color: #ff6600;text-decoration:underline;}
-        .weight dl a:hover{color: #ff6600;text-decoration:underline;}
-        .quick_up dl a:hover{color: #ff6600;text-decoration:underline;}
-
-
-
-        #hotGames .bottom dl span {
-
-            width: 120px;
-            display: inline-block;
-            border-right: 1px rgb(213, 213, 213) solid;
-            text-align: center;
-            margin-bottom: 10px;
-        }
-
-        #hotGames .bottom span:nth-child(7n) {
-            border-right: none;
-        }
-
-        #goodGames {
-            width: 70%;
-            padding-right: 10px;
-        }
-
-        #goodGames .game {
-            font-size: 10px;
-            height: 116px;
-            width: 155px;
-            overflow: hidden;
-        }
-        #goodGames .download{
-            font-size: 10px;
-            margin-top: 8px;
-        }
-         #goodGames .qrcode{color: #ff6600;height:116px; }
-         #goodGames .qrcode img{text-align:center; margin-left: 35px;margin-top: 10px;}
-
-        #goodGames dt {
-            display: flex;
-            flex-flow: row wrap;
-            -webkit-flex-flow: row wrap;
-            -webkit-align-items: stretch;
-            -webkit-justify-content: space-between;
-            display: -webkit-box;
-            display: -moz-box;
-            display: -ms-flexbox;
-            display: -webkit-flex;
-        }
-
-        #goodGames dl {
-            width: 155px;
-            height: 145px;
-            margin-top:10px;
-            background: #f5f5f5;
-        }
-
-        #goodGames .qrcode {
-            background-color: white;
-            transition: .5s;
-            border-bottom: 1px rgb(255, 102, 0) solid;
-        }
-
-        #goodGames .qrcode p {
-            margin: 0;
-            text-align: center;
-        }
-        
-        #goodGames .game:hover .qrcode {
-            transform: translateY(-120px);
-        }
-        
-     
-
-        #goodGames .download {
-            display: flex;
-            flex-flow: row wrap;
-            -webkit-flex-flow: row wrap;
-            -webkit-align-items: stretch;
-            -webkit-justify-content: space-between;
-            display: -webkit-box;
-            display: -moz-box;
-            display: -ms-flexbox;
-            display: -webkit-flex;
-        }
-
-        #goodGames,
-        #gameGift {
-            float: left;
-            box-sizing: border-box;
-        }
-
-        #gameGift {
-            width: 30%;
-            padding-left: 10px;
-            margin-top: -22px;
-
-        }
-
-        #gameGift dl{
-            margin-top: 10px;
-        }
-        #gameGift dd {
-            border: 1px rgb(213, 213, 213) solid;
-            padding: 10px;
-            box-sizing: border-box;
-            height: 110px;
-            margin: 15px 0;
-        }
-
-        #gameGift p {
-            margin: 2px 0 6px 5px;
-            line-height: 14px;
-        }
-
-        #gameGift dd div {
-            width: 55%;
-            float: left;
-        }
-
-        #gameGift dd img {
-            width: 40%;
-            float: left;
-            display: inline-block;
-            margin-top: 5px;
-        }
-
-        #gameGift dd p {
-            font-size: 12px;
-            color: #999999;
-        }
-
-        #gameGift dd p:nth-child(1) {
-            font-size: 12px;
-            color: #333333;
-            font-weight: bold;
-        }
-
-        #gameGift dd a {
-            display: inline-block;
-            background-color: rgb(77, 195, 237);
-            color: white;
-            text-decoration: none;
-            font-size:12px;
-            padding: 2px 5px;
-            margin-left: 8px;
-
-        }
-        #newGames{
-            position: relative;top: 5px;
-            float: right;
-            font-size: 16px;
-            color: #333333;
-            
-        }
-
-
-        #gameGift dd a.receive {
-            background-color: rgb(255, 102, 0);
-        }
-        #hotGoodGames{width: 980px}
-
-        .tab_title {
-            margin-top: 15px;
-            height: 46px;
-        }
-
-        .tab_title span {
-            border-top: 1px rgb(213, 213, 213) solid;
-            border-bottom: 1px rgb(213, 213, 213) solid;
-            border-right: 1px rgb(213, 213, 213) solid;
-            font-size: 14px;
-            padding: 10px 25px;
-            margin-left: -4px;
-            display: inline-block;
-            cursor: pointer;
-            background:-webkit-gradient(linear, left top, left bottom, from(#FFFFFF), color-stop(0.5, rgb(252, 252, 252)), to(rgb(242, 242, 242)))
-        }
-
-        .tab_title span:nth-child(1) {
-            border-left: 1px rgb(213, 213, 213) solid;
-            margin-left: 0;
-        }
-
-        .tab_container {
-            width: 100%;
-            border: 1px rgb(213, 213, 213) solid;
-            border-right: 1px rgb(213, 213, 213) solid;
-            height: 370px;
-            margin-top: -6px;
-        }
-
-        .tab_title span.active {
-            border-top: 1px rgb(10, 187, 252) solid;
-            height: 20px;
-            border-bottom: none;
-        }
-
-
- #hotGoodGames .game {
-            font-size: 10px;
-            height: 116px;
-            width: 155px;
-            overflow: hidden;
-        }
-        #hotGoodGames .download{
-            font-size: 10px;
-            margin-top: 20px;
-        }
-        #hotGoodGames .qrcode{color: #ff6600;height:116px; }
-        #hotGoodGames .qrcode img{text-align:center; margin-left: 35px;margin-top: 10px;}
-
-        #hotGoodGames dt {
-            display: flex;
-            flex-flow: row wrap;
-            -webkit-flex-flow: row wrap;
-            -webkit-align-items: stretch;
-            -webkit-justify-content: space-between;
-            display: -webkit-box;
-            display: -moz-box;
-            display: -ms-flexbox;
-            display: -webkit-flex;
-        }
-
-        #hotGoodGames dl {
-            width: 175px;
-            height: 160px;
-            margin-top:10px;
-            background: #f5f5f5;
-        }
-
-        #hotGoodGames .qrcode {
-            background-color: white;
-            transition: .5s;
-            border-bottom: 1px rgb(255, 102, 0) solid;
-        }
-
-        #hotGoodGames .qrcode p {
-            margin: 0;
-            text-align: center;
-        }
-        
-        #hotGoodGames .game:hover .qrcode {
-            transform: translateY(-137px);
-        }
-        
-     
-
-        #hotGoodGames .download {
-            display: flex;
-            flex-flow: row wrap;
-            -webkit-flex-flow: row wrap;
-            -webkit-align-items: stretch;
-            -webkit-justify-content: space-between;
-            display: -webkit-box;
-            display: -moz-box;
-            display: -ms-flexbox;
-            display: -webkit-flex;
-        }
-
-
-
-        #specialGames div {
-            display: flex;
-            flex-flow: row wrap;
-            -webkit-flex-flow: row wrap;
-            -webkit-align-items: stretch;
-            -webkit-justify-content: space-between;
-            display: -webkit-box;
-            display: -moz-box;
-            display: -ms-flexbox;
-            display: -webkit-flex;
-            padding: 10px 0;
-        }
-
-        #specialGames a {
-            display: inline-block;
-            height: 30px;
-            width: 128px;
-            color: #ffffff;
-            text-align: center;
-            line-height: 30px;
-            font-size: 12px;
-            margin-bottom: 10px;
-        }
+    }
+    .info .rank span:nth-child(1) {
+        display: inline-block;
+        float: left;
+        color: rgb(255, 102, 0);
+    }
+    .info .rank span:nth-child(2) {
+        display: inline-block;
+        float: left;
+        margin-left: 20px;
+        color: rgb(255, 102, 0);
+    }
+    .info .rank span:nth-child(3) {
+        display: inline-block;
+        float: right;
+    }
+    .info .link a:nth-child(1) {
+        display: inline-block;
+        float: left;
+    }
+    .info .link a:nth-child(2) {
+        display: inline-block;
+        float: right;
+    }
+    #hotGames .bottom div {
+        margin: 10px 0;
+        font-size: 12px;
+    }
+    #hotGames .bottom label {
+        width: 70px;
+        height: 23px;
+        display: inline-block;
+        line-height: 23px;
+        text-align: center;
+        color: white;
+        float: left;
+    }
+    .new_hot dl {
+        padding-left: 20px;
+        color: #333333;
+    }
+    .weight dl {
+        padding-left: 20px;
+        color: #333333;
+    }
+    .quick_up dl {
+        padding-left: 20px;
+        color: #333333;
+    }
+    .new_hot dl a {
+        color: #333333;
+    }
+    .weight dl a {
+        color: #333333;
+    }
+    .quick_up dl a {
+        color: #333333;
+    }
+    .new_hot dl a:hover {
+        color: #ff6600;
+        text-decoration: underline;
+    }
+    .weight dl a:hover {
+        color: #ff6600;
+        text-decoration: underline;
+    }
+    .quick_up dl a:hover {
+        color: #ff6600;
+        text-decoration: underline;
+    }
+    #hotGames .bottom dl span {
+        width: 120px;
+        display: inline-block;
+        border-right: 1px rgb(213, 213, 213) solid;
+        text-align: center;
+        margin-bottom: 10px;
+    }
+    #hotGames .bottom span:nth-child(7n) {
+        border-right: none;
+    }
+    #goodGames {
+        width: 70%;
+        padding-right: 10px;
+    }
+    #goodGames .game {
+        font-size: 10px;
+        height: 116px;
+        width: 155px;
+        overflow: hidden;
+    }
+    #goodGames .download {
+        font-size: 10px;
+        margin-top: 8px;
+    }
+    #goodGames .qrcode {
+        color: #ff6600;
+        height: 116px;
+    }
+    #goodGames .qrcode img {
+        text-align: center;
+        margin-left: 35px;
+        margin-top: 10px;
+    }
+    #goodGames dt {
+        display: flex;
+        flex-flow: row wrap;
+        -webkit-flex-flow: row wrap;
+        -webkit-align-items: stretch;
+        -webkit-justify-content: space-between;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+    }
+    #goodGames dl {
+        width: 155px;
+        height: 145px;
+        margin-top: 10px;
+        background: #f5f5f5;
+    }
+    #goodGames .qrcode {
+        background-color: white;
+        transition: .5s;
+        border-bottom: 1px rgb(255, 102, 0) solid;
+    }
+    #goodGames .qrcode p {
+        margin: 0;
+        text-align: center;
+    }
+    #goodGames .game:hover .qrcode {
+        transform: translateY(-120px);
+    }
+    #goodGames .download {
+        display: flex;
+        flex-flow: row wrap;
+        -webkit-flex-flow: row wrap;
+        -webkit-align-items: stretch;
+        -webkit-justify-content: space-between;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+    }
+    #goodGames,
+    #gameGift {
+        float: left;
+        box-sizing: border-box;
+    }
+    #gameGift {
+        width: 30%;
+        padding-left: 10px;
+        margin-top: -22px;
+    }
+    #gameGift dl {
+        margin-top: 10px;
+    }
+    #gameGift dd {
+        border: 1px rgb(213, 213, 213) solid;
+        padding: 10px;
+        box-sizing: border-box;
+        height: 110px;
+        margin: 15px 0;
+    }
+    #gameGift p {
+        margin: 2px 0 6px 5px;
+        line-height: 14px;
+    }
+    #gameGift dd div {
+        width: 55%;
+        float: left;
+    }
+    #gameGift dd img {
+        width: 40%;
+        float: left;
+        display: inline-block;
+        margin-top: 5px;
+    }
+    #gameGift dd p {
+        font-size: 12px;
+        color: #999999;
+    }
+    #gameGift dd p:nth-child(1) {
+        font-size: 12px;
+        color: #333333;
+        font-weight: bold;
+    }
+    #gameGift dd a {
+        display: inline-block;
+        background-color: rgb(77, 195, 237);
+        color: white;
+        text-decoration: none;
+        font-size: 12px;
+        padding: 2px 5px;
+        margin-left: 8px;
+    }
+    #newGames {
+        position: relative;
+        top: 5px;
+        float: right;
+        font-size: 16px;
+        color: #333333;
+    }
+    #gameGift dd a.receive {
+        background-color: rgb(255, 102, 0);
+    }
+    #hotGoodGames {
+        width: 980px
+    }
+    .tab_title {
+        margin-top: 15px;
+        height: 46px;
+    }
+    .tab_title span {
+        border-top: 1px rgb(213, 213, 213) solid;
+        border-bottom: 1px rgb(213, 213, 213) solid;
+        border-right: 1px rgb(213, 213, 213) solid;
+        font-size: 14px;
+        padding: 10px 25px;
+        margin-left: -4px;
+        display: inline-block;
+        cursor: pointer;
+        background: -webkit-gradient(linear, left top, left bottom, from(#FFFFFF), color-stop(0.5, rgb(252, 252, 252)), to(rgb(242, 242, 242)))
+    }
+    .tab_title span:nth-child(1) {
+        border-left: 1px rgb(213, 213, 213) solid;
+        margin-left: 0;
+    }
+    .tab_container {
+        width: 100%;
+        border: 1px rgb(213, 213, 213) solid;
+        border-right: 1px rgb(213, 213, 213) solid;
+        height: 370px;
+        margin-top: -6px;
+    }
+    .tab_title span.active {
+        border-top: 1px rgb(10, 187, 252) solid;
+        height: 20px;
+        border-bottom: none;
+    }
+    #hotGoodGames .game {
+        font-size: 10px;
+        height: 116px;
        
-        #specialGames a.red {
-            background: url('../images/img_58.jpg') no-repeat;
+        overflow: hidden;
+    }
+    #hotGoodGames .download {
+        font-size: 10px;
+        margin-top: 20px;
+    }
+    #hotGoodGames .qrcode {
+        color: #ff6600;
+        height: 116px;
+    }
+    #hotGoodGames .qrcode img {
+        text-align: center;
+        margin-top: 10px;
+    }
+    #hotGoodGames dt {
+        display: flex;
+        flex-flow: row wrap;
+        -webkit-flex-flow: row wrap;
+        -webkit-align-items: stretch;
+        -webkit-justify-content: space-between;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+    }
+    #hotGoodGames dl {
+        width: 175px;
+        height: 160px;
+        margin-top: 10px;
+        background: #f5f5f5;
+    }
+    #hotGoodGames .qrcode {
+        background-color: white;
+        transition: .5s;
+        border-bottom: 1px rgb(255, 102, 0) solid;
+        text-align: center;
+    }
+    #hotGoodGames .qrcode p {
+        margin: 0;
+        text-align: center;
+    }
+    #hotGoodGames .game:hover .qrcode {
+        transform: translateY(-137px);
+    }
+    #hotGoodGames .download {
+        display: flex;
+        flex-flow: row wrap;
+        -webkit-flex-flow: row wrap;
+        -webkit-align-items: stretch;
+        -webkit-justify-content: space-between;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+    }
+    #specialGames div {
+        display: flex;
+        flex-flow: row wrap;
+        -webkit-flex-flow: row wrap;
+        -webkit-align-items: stretch;
+        -webkit-justify-content: space-between;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        padding: 10px 0;
+    }
+    #specialGames a {
+        display: inline-block;
+        height: 30px;
+        width: 128px;
+        color: #ffffff;
+        text-align: center;
+        line-height: 30px;
+        font-size: 12px;
+        margin-bottom: 10px;
+    }
+    #specialGames a.red {
+        background: url('../images/img_58.jpg') no-repeat;
+    }
+    #specialGames a.orange {
+        background: url('../images/img_56.jpg') no-repeat;
+    }
+    #specialGames a.yellow {
+        background: url('../images/img_54.jpg') no-repeat;
+    }
+    #specialGames a.green {
+        background: url('../images/img_52.jpg') no-repeat;
+    }
+    #specialGames a.blue {
+        background: url('../images/img_50.jpg') no-repeat;
+    }
+    #specialGames a.black {
+        background: url('../images/img_48.jpg') no-repeat;
+    }
+    #rankList {
+        display: flex;
+        flex-flow: row wrap;
+        -webkit-flex-flow: row wrap;
+        -webkit-align-items: stretch;
+        -webkit-justify-content: space-between;
+        display: -webkit-box;
+        display: -moz-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+    }
+    #rankList >div {
+        width: 22%;
+        box-sizing: border-box;
+        height: 400px;
+    }
+    #rankList ol {
+        padding: 5px 0px;
+    }
+    #rankList li {
+        list-style: none;
+        border-bottom: 1px rgb(213, 213, 213) dashed;
+        *display: inline-block;
+        font-size: 12px;
+        height: 31px;
+        overflow: hidden;
+        transition: height .5s;
+    }
+    #rankList li .info {
+        padding-left: 30px;
+    }
+    #rankList li .info > * {
+        float: left;
+    }
+    #rankList li .info div p {
+        margin: 5px 10px;
+    }
+    #rankList li .info div p:nth-child(1) {
+        font-size: 1.1em;
+        font-weight: bold;
+    }
+    #rankList li .info div p:nth-child(2) {
+        font-size: 1em;
+        color: gray;
+    }
+    #rankList li:hover {
+        height: 80px;
+        cursor: pointer;
+    }
+    #rankList li:hover span {
+        display: inline-block;
+        transform: translateY(-40px);
+    }
+    #rankList li:hover .info {
+        transform: translateY(-25px);
+    }
+    #rankList li:before {
+        content: attr(content);
+        height: 15px;
+        width: 15px;
+        background-color: rgb(178, 178, 178);
+        color: white;
+        display: inline-block;
+        text-align: center;
+        padding: 3px;
+        margin: 5px 20px 5px 0;
+    }
+    #rankList .rank1 ol {
+        margin-top: 5px;
+    }
+    #rankList .rank2 ol {
+        margin-top: 5px;
+    }
+    #rankList .rank3 ol {
+        margin-top: 5px;
+    }
+    #rankList .rank4 ol {
+        margin-top: 5px;
+    }
+    #rankList .rank1 ol li:nth-child(1):before {
+        background-color: rgb(255, 102, 0);
+    }
+    #rankList .rank1 ol li:nth-child(2):before {
+        background-color: rgb(255, 102, 0);
+    }
+    #rankList .rank1 ol li:nth-child(3):before {
+        background-color: rgb(255, 102, 0);
+    }
+    #rankList .rank2 ol li:nth-child(1):before {
+        background-color: rgb(255, 180, 44);
+    }
+    #rankList .rank2 ol li:nth-child(2):before {
+        background-color: rgb(255, 180, 44);
+    }
+    #rankList .rank2 ol li:nth-child(3):before {
+        background-color: rgb(255, 180, 44);
+    }
+    #rankList .rank3 ol li:nth-child(1):before {
+        background-color: rgb(122, 202, 255);
+    }
+    #rankList .rank3 ol li:nth-child(2):before {
+        background-color: rgb(122, 202, 255);
+    }
+    #rankList .rank3 ol li:nth-child(3):before {
+        background-color: rgb(122, 202, 255);
+    }
+    #rankList .rank4 ol li:nth-child(1):before {
+        background-color: #003399;
+    }
+    #rankList .rank4 ol li:nth-child(2):before {
+        background-color: #003399;
+    }
+    #rankList .rank4 ol li:nth-child(3):before {
+        background-color: #003399;
+    }
+    #rankList h4:before {
+        content: ' ';
+        height: 15px;
+        width: 4px;
+        position: relative;
+        top: 2px;
+        margin-right: 10px;
+        display: inline-block;
+    }
+    .rank1 h4:before {
+        background-color: #ff6600;
+    }
+    .rank2 h4:before {
+        background-color: #ffcc33;
+    }
+    .rank3 h4:before {
+        background-color: #66ccff;
+    }
+    .rank4 h4:before {
+        background-color: #003399;
+    }
+    footer {
+        width: 100%;
+        height: 240px;
+        background: rgb(65, 65, 65);
+        color: #898989;
+        font-size: 12px;
+    }
+    footer div {
+        height: 29px;
+    }
+    footer .top {
+        width: 1000px;
+        margin: 0 auto;
+        padding: 20px 10px;
+        height: 60%;
+        box-sizing: border-box;
+        border-bottom: 1px rgb(131, 131, 131) dashed;
+    }
+    footer .top .left {
+        width: 150px;
+        float: left;
+        height: 100%;
+    }
+    footer a {
+        text-decoration: none;
+        font-size: .9em;
+        width: 88px;
+        height: 29px;
+        display: inline-block;
+        color: gray;
+    }
+    footer .top .left a {
+        background: url('../images/img02_23.png');
+    }
+    footer .bottom {
+        text-align: center;
+        width: 1000px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    .fix {
+        position: fixed;
+        bottom: 100px;
+        right: 100px;
+        width: 60px;
+    }
+    @-webkit-keyframes shake-hard {
+        0% {
+            -webkit-transform: translate(0px, 0px) rotate(0deg)
         }
-
-        #specialGames a.orange {
-            background: url('../images/img_56.jpg') no-repeat;
+        
+        2% {
+            -webkit-transform: translate(5px, -4px) rotate(-2.5deg)
         }
-
-        #specialGames a.yellow {
-            background: url('../images/img_54.jpg') no-repeat;
+        
+        4% {
+            -webkit-transform: translate(-10px, 5px) rotate(2.5deg)
         }
-
-        #specialGames a.green {
-            background: url('../images/img_52.jpg') no-repeat;
+        
+        6% {
+            -webkit-transform: translate(0px, 5px) rotate(-3.5deg)
         }
-
-        #specialGames a.blue {
-            background: url('../images/img_50.jpg') no-repeat;
+        
+        8% {
+            -webkit-transform: translate(-6px, -10px) rotate(-1.5deg)
         }
-
-        #specialGames a.black {
-            background: url('../images/img_48.jpg') no-repeat;
+        
+        10% {
+            -webkit-transform: translate(2px, -7px) rotate(1.5deg)
         }
-
-        #rankList {
-            display: flex;
-            flex-flow: row wrap;
-            -webkit-flex-flow: row wrap;
-            -webkit-align-items: stretch;
-            -webkit-justify-content: space-between;
-            display: -webkit-box;
-            display: -moz-box;
-            display: -ms-flexbox;
-            display: -webkit-flex;
+        
+        12% {
+            -webkit-transform: translate(0px, 1px) rotate(0.5deg)
         }
-
-        #rankList >div {
-            width: 22%;
-            box-sizing: border-box;
-            height: 400px;
+        
+        14% {
+            -webkit-transform: translate(7px, -9px) rotate(-0.5deg)
         }
-
-        #rankList ol {
-            padding: 5px 0px;
+        
+        16% {
+            -webkit-transform: translate(-8px, 4px) rotate(-2.5deg)
         }
-
-        #rankList li {
-            list-style: none;
-            border-bottom: 1px rgb(213, 213, 213) dashed;
-            *display: inline-block;
-            font-size: 12px;
-            height: 31px;
-            overflow: hidden;
-            transition: height .5s;
+        
+        18% {
+            -webkit-transform: translate(-9px, -4px) rotate(-0.5deg)
         }
-
-        #rankList li .info {
-            padding-left: 30px;
+        
+        20% {
+            -webkit-transform: translate(-8px, -8px) rotate(0.5deg)
         }
-
-        #rankList li .info > * {
-            float: left;
+        
+        22% {
+            -webkit-transform: translate(-7px, 0px) rotate(-0.5deg)
         }
-
-        #rankList li .info div p {
-            margin: 5px 10px;
+        
+        24% {
+            -webkit-transform: translate(-10px, -5px) rotate(-3.5deg)
         }
-
-        #rankList li .info div p:nth-child(1) {
-            font-size: 1.1em;
-            font-weight: bold;
+        
+        26% {
+            -webkit-transform: translate(1px, -10px) rotate(-0.5deg)
         }
-
-        #rankList li .info div p:nth-child(2) {
-            font-size: 1em;
-            color: gray;
+        
+        28% {
+            -webkit-transform: translate(5px, 2px) rotate(-1.5deg)
         }
-
-        #rankList li:hover {
-            height: 80px;
-            cursor: pointer;
+        
+        30% {
+            -webkit-transform: translate(-8px, 5px) rotate(-0.5deg)
         }
-
-        #rankList li:hover span {
-            display: inline-block;
-            transform: translateY(-40px);
+        
+        32% {
+            -webkit-transform: translate(-4px, 2px) rotate(1.5deg)
         }
-
-        #rankList li:hover .info {
-            transform: translateY(-25px);
+        
+        34% {
+            -webkit-transform: translate(-9px, 8px) rotate(1.5deg)
         }
-
-        #rankList li:before {
-            content: attr(content);
-            height: 15px;
-            width: 15px;
-            background-color: rgb(178, 178, 178);
-            color: white;
-            display: inline-block;
-            text-align: center;
-            padding: 3px;
-            margin: 5px 20px 5px 0;
+        
+        36% {
+            -webkit-transform: translate(8px, -3px) rotate(1.5deg)
         }
-        #rankList .rank1 ol{
-            margin-top: 5px;
-           
+        
+        38% {
+            -webkit-transform: translate(-10px, 7px) rotate(-0.5deg)
         }
-             #rankList .rank2 ol{
-            margin-top: 5px;
-           
+        
+        40% {
+            -webkit-transform: translate(-7px, 1px) rotate(-3.5deg)
         }
-             #rankList .rank3 ol{
-            margin-top: 5px;
-           
+        
+        42% {
+            -webkit-transform: translate(-9px, 7px) rotate(0.5deg)
         }
-             #rankList .rank4 ol{
-            margin-top: 5px;
-           
+        
+        44% {
+            -webkit-transform: translate(4px, 2px) rotate(-3.5deg)
         }
-
-        #rankList .rank1 ol li:nth-child(1):before {
-            background-color: rgb(255, 102, 0);
+        
+        46% {
+            -webkit-transform: translate(8px, 4px) rotate(2.5deg)
         }
-
-        #rankList .rank1 ol li:nth-child(2):before {
-            background-color: rgb(255, 102, 0);
+        
+        48% {
+            -webkit-transform: translate(-5px, -1px) rotate(-2.5deg)
         }
-
-        #rankList .rank1 ol li:nth-child(3):before {
-            background-color: rgb(255, 102, 0);
+        
+        50% {
+            -webkit-transform: translate(-7px, 5px) rotate(-2.5deg)
         }
-
-        #rankList .rank2 ol li:nth-child(1):before {
-            background-color: rgb(255, 180, 44);
+        
+        52% {
+            -webkit-transform: translate(-1px, -7px) rotate(-3.5deg)
         }
-
-        #rankList .rank2 ol li:nth-child(2):before {
-            background-color: rgb(255, 180, 44);
+        
+        54% {
+            -webkit-transform: translate(-2px, -3px) rotate(0.5deg)
         }
-
-        #rankList .rank2 ol li:nth-child(3):before {
-            background-color: rgb(255, 180, 44);
+        
+        56% {
+            -webkit-transform: translate(-4px, -6px) rotate(-2.5deg)
         }
-
-        #rankList .rank3 ol li:nth-child(1):before {
-            background-color: rgb(122, 202, 255);
+        
+        58% {
+            -webkit-transform: translate(5px, 4px) rotate(-2.5deg)
         }
-
-        #rankList .rank3 ol li:nth-child(2):before {
-            background-color: rgb(122, 202, 255);
+        
+        60% {
+            -webkit-transform: translate(-3px, 2px) rotate(-0.5deg)
         }
-
-        #rankList .rank3 ol li:nth-child(3):before {
-            background-color: rgb(122, 202, 255);
+        
+        62% {
+            -webkit-transform: translate(-4px, -10px) rotate(-1.5deg)
         }
-
-        #rankList .rank4 ol li:nth-child(1):before {
-            background-color: #003399;
+        
+        64% {
+            -webkit-transform: translate(-4px, -9px) rotate(-2.5deg)
         }
-
-        #rankList .rank4 ol li:nth-child(2):before {
-            background-color:  #003399;
+        
+        66% {
+            -webkit-transform: translate(3px, -8px) rotate(-1.5deg)
         }
-
-        #rankList .rank4 ol li:nth-child(3):before {
-            background-color:  #003399;
+        
+        68% {
+            -webkit-transform: translate(-5px, -2px) rotate(0.5deg)
         }
-
-        #rankList h4:before {
-            content: ' ';
-            height: 15px;
-            width: 4px;
-            position: relative;
-            top: 2px;
-            margin-right: 10px;
-            display: inline-block;
+        
+        70% {
+            -webkit-transform: translate(-3px, -1px) rotate(-3.5deg)
         }
-
-        .rank1 h4:before {
-            background-color: #ff6600;
+        
+        72% {
+            -webkit-transform: translate(9px, -2px) rotate(0.5deg)
         }
-
-        .rank2 h4:before {
-            background-color: #ffcc33;
+        
+        74% {
+            -webkit-transform: translate(7px, -6px) rotate(-2.5deg)
         }
-
-        .rank3 h4:before {
-            background-color: #66ccff;
+        
+        76% {
+            -webkit-transform: translate(1px, 2px) rotate(-1.5deg)
         }
-
-        .rank4 h4:before {
-            background-color: #003399;
+        
+        78% {
+            -webkit-transform: translate(-3px, -5px) rotate(-1.5deg)
         }
-
-        footer {
-            width: 100%;
-            height: 240px;
-            background: rgb(65, 65, 65);
-            color: #898989;
-            font-size: 12px;
+        
+        80% {
+            -webkit-transform: translate(-5px, 3px) rotate(2.5deg)
         }
-
-        footer div {
-            height: 29px;
+        
+        82% {
+            -webkit-transform: translate(-2px, -1px) rotate(-3.5deg)
         }
-
-        footer .top {
-            width: 1000px;
-            margin: 0 auto;
-            padding: 20px 10px;
-            height: 60%;
-            box-sizing: border-box;
-            border-bottom: 1px rgb(131, 131, 131) dashed;
+        
+        84% {
+            -webkit-transform: translate(-8px, 7px) rotate(0.5deg)
         }
-
-        footer .top .left {
-            width:150px;
-            float: left;
-            height: 100%;
+        
+        86% {
+            -webkit-transform: translate(-2px, 4px) rotate(-0.5deg)
         }
-
-        footer a {
-            text-decoration: none;
-            font-size: .9em;
-            width: 88px;
-            height: 29px;
-            display: inline-block;
-            color: gray;
+        
+        88% {
+            -webkit-transform: translate(4px, 7px) rotate(-3.5deg)
         }
-
-        footer .top .left a {
-            background: url('../images/img02_23.png');
+        
+        90% {
+            -webkit-transform: translate(2px, 7px) rotate(0.5deg)
         }
-
-        footer .bottom {
-            text-align: center;
-            width: 1000px;
-            margin: 0 auto;
-            padding: 20px;
+        
+        92% {
+            -webkit-transform: translate(-3px, 6px) rotate(-3.5deg)
         }
-
-
-        .fix{
-            position: fixed;
-            bottom:100px;
-            right: 100px;
-            width: 60px;
+        
+        94% {
+            -webkit-transform: translate(1px, 8px) rotate(1.5deg)
         }
-
-        @-webkit-keyframes shake-hard{0%{-webkit-transform:translate(0px, 0px) rotate(0deg)}2%{-webkit-transform:translate(5px, -4px) rotate(-2.5deg)}4%{-webkit-transform:translate(-10px, 5px) rotate(2.5deg)}6%{-webkit-transform:translate(0px, 5px) rotate(-3.5deg)}8%{-webkit-transform:translate(-6px, -10px) rotate(-1.5deg)}10%{-webkit-transform:translate(2px, -7px) rotate(1.5deg)}12%{-webkit-transform:translate(0px, 1px) rotate(0.5deg)}14%{-webkit-transform:translate(7px, -9px) rotate(-0.5deg)}16%{-webkit-transform:translate(-8px, 4px) rotate(-2.5deg)}18%{-webkit-transform:translate(-9px, -4px) rotate(-0.5deg)}20%{-webkit-transform:translate(-8px, -8px) rotate(0.5deg)}22%{-webkit-transform:translate(-7px, 0px) rotate(-0.5deg)}24%{-webkit-transform:translate(-10px, -5px) rotate(-3.5deg)}26%{-webkit-transform:translate(1px, -10px) rotate(-0.5deg)}28%{-webkit-transform:translate(5px, 2px) rotate(-1.5deg)}30%{-webkit-transform:translate(-8px, 5px) rotate(-0.5deg)}32%{-webkit-transform:translate(-4px, 2px) rotate(1.5deg)}34%{-webkit-transform:translate(-9px, 8px) rotate(1.5deg)}36%{-webkit-transform:translate(8px, -3px) rotate(1.5deg)}38%{-webkit-transform:translate(-10px, 7px) rotate(-0.5deg)}40%{-webkit-transform:translate(-7px, 1px) rotate(-3.5deg)}42%{-webkit-transform:translate(-9px, 7px) rotate(0.5deg)}44%{-webkit-transform:translate(4px, 2px) rotate(-3.5deg)}46%{-webkit-transform:translate(8px, 4px) rotate(2.5deg)}48%{-webkit-transform:translate(-5px, -1px) rotate(-2.5deg)}50%{-webkit-transform:translate(-7px, 5px) rotate(-2.5deg)}52%{-webkit-transform:translate(-1px, -7px) rotate(-3.5deg)}54%{-webkit-transform:translate(-2px, -3px) rotate(0.5deg)}56%{-webkit-transform:translate(-4px, -6px) rotate(-2.5deg)}58%{-webkit-transform:translate(5px, 4px) rotate(-2.5deg)}60%{-webkit-transform:translate(-3px, 2px) rotate(-0.5deg)}62%{-webkit-transform:translate(-4px, -10px) rotate(-1.5deg)}64%{-webkit-transform:translate(-4px, -9px) rotate(-2.5deg)}66%{-webkit-transform:translate(3px, -8px) rotate(-1.5deg)}68%{-webkit-transform:translate(-5px, -2px) rotate(0.5deg)}70%{-webkit-transform:translate(-3px, -1px) rotate(-3.5deg)}72%{-webkit-transform:translate(9px, -2px) rotate(0.5deg)}74%{-webkit-transform:translate(7px, -6px) rotate(-2.5deg)}76%{-webkit-transform:translate(1px, 2px) rotate(-1.5deg)}78%{-webkit-transform:translate(-3px, -5px) rotate(-1.5deg)}80%{-webkit-transform:translate(-5px, 3px) rotate(2.5deg)}82%{-webkit-transform:translate(-2px, -1px) rotate(-3.5deg)}84%{-webkit-transform:translate(-8px, 7px) rotate(0.5deg)}86%{-webkit-transform:translate(-2px, 4px) rotate(-0.5deg)}88%{-webkit-transform:translate(4px, 7px) rotate(-3.5deg)}90%{-webkit-transform:translate(2px, 7px) rotate(0.5deg)}92%{-webkit-transform:translate(-3px, 6px) rotate(-3.5deg)}94%{-webkit-transform:translate(1px, 8px) rotate(1.5deg)}96%{-webkit-transform:translate(-8px, -2px) rotate(1.5deg)}98%{-webkit-transform:translate(-5px, 6px) rotate(0.5deg)}}
-        @-ms-keyframes shake-hard{0%{-webkit-transform:translate(0px, 0px) rotate(0deg)}2%{-webkit-transform:translate(5px, -4px) rotate(-2.5deg)}4%{-webkit-transform:translate(-10px, 5px) rotate(2.5deg)}6%{-webkit-transform:translate(0px, 5px) rotate(-3.5deg)}8%{-webkit-transform:translate(-6px, -10px) rotate(-1.5deg)}10%{-webkit-transform:translate(2px, -7px) rotate(1.5deg)}12%{-webkit-transform:translate(0px, 1px) rotate(0.5deg)}14%{-webkit-transform:translate(7px, -9px) rotate(-0.5deg)}16%{-webkit-transform:translate(-8px, 4px) rotate(-2.5deg)}18%{-webkit-transform:translate(-9px, -4px) rotate(-0.5deg)}20%{-webkit-transform:translate(-8px, -8px) rotate(0.5deg)}22%{-webkit-transform:translate(-7px, 0px) rotate(-0.5deg)}24%{-webkit-transform:translate(-10px, -5px) rotate(-3.5deg)}26%{-webkit-transform:translate(1px, -10px) rotate(-0.5deg)}28%{-webkit-transform:translate(5px, 2px) rotate(-1.5deg)}30%{-webkit-transform:translate(-8px, 5px) rotate(-0.5deg)}32%{-webkit-transform:translate(-4px, 2px) rotate(1.5deg)}34%{-webkit-transform:translate(-9px, 8px) rotate(1.5deg)}36%{-webkit-transform:translate(8px, -3px) rotate(1.5deg)}38%{-webkit-transform:translate(-10px, 7px) rotate(-0.5deg)}40%{-webkit-transform:translate(-7px, 1px) rotate(-3.5deg)}42%{-webkit-transform:translate(-9px, 7px) rotate(0.5deg)}44%{-webkit-transform:translate(4px, 2px) rotate(-3.5deg)}46%{-webkit-transform:translate(8px, 4px) rotate(2.5deg)}48%{-webkit-transform:translate(-5px, -1px) rotate(-2.5deg)}50%{-webkit-transform:translate(-7px, 5px) rotate(-2.5deg)}52%{-webkit-transform:translate(-1px, -7px) rotate(-3.5deg)}54%{-webkit-transform:translate(-2px, -3px) rotate(0.5deg)}56%{-webkit-transform:translate(-4px, -6px) rotate(-2.5deg)}58%{-webkit-transform:translate(5px, 4px) rotate(-2.5deg)}60%{-webkit-transform:translate(-3px, 2px) rotate(-0.5deg)}62%{-webkit-transform:translate(-4px, -10px) rotate(-1.5deg)}64%{-webkit-transform:translate(-4px, -9px) rotate(-2.5deg)}66%{-webkit-transform:translate(3px, -8px) rotate(-1.5deg)}68%{-webkit-transform:translate(-5px, -2px) rotate(0.5deg)}70%{-webkit-transform:translate(-3px, -1px) rotate(-3.5deg)}72%{-webkit-transform:translate(9px, -2px) rotate(0.5deg)}74%{-webkit-transform:translate(7px, -6px) rotate(-2.5deg)}76%{-webkit-transform:translate(1px, 2px) rotate(-1.5deg)}78%{-webkit-transform:translate(-3px, -5px) rotate(-1.5deg)}80%{-webkit-transform:translate(-5px, 3px) rotate(2.5deg)}82%{-webkit-transform:translate(-2px, -1px) rotate(-3.5deg)}84%{-webkit-transform:translate(-8px, 7px) rotate(0.5deg)}86%{-webkit-transform:translate(-2px, 4px) rotate(-0.5deg)}88%{-webkit-transform:translate(4px, 7px) rotate(-3.5deg)}90%{-webkit-transform:translate(2px, 7px) rotate(0.5deg)}92%{-webkit-transform:translate(-3px, 6px) rotate(-3.5deg)}94%{-webkit-transform:translate(1px, 8px) rotate(1.5deg)}96%{-webkit-transform:translate(-8px, -2px) rotate(1.5deg)}98%{-webkit-transform:translate(-5px, 6px) rotate(0.5deg)}}
-        @keyframes shake-hard{0%{-webkit-transform:translate(0px, 0px) rotate(0deg)}2%{-webkit-transform:translate(5px, -4px) rotate(-2.5deg)}4%{-webkit-transform:translate(-10px, 5px) rotate(2.5deg)}6%{-webkit-transform:translate(0px, 5px) rotate(-3.5deg)}8%{-webkit-transform:translate(-6px, -10px) rotate(-1.5deg)}10%{-webkit-transform:translate(2px, -7px) rotate(1.5deg)}12%{-webkit-transform:translate(0px, 1px) rotate(0.5deg)}14%{-webkit-transform:translate(7px, -9px) rotate(-0.5deg)}16%{-webkit-transform:translate(-8px, 4px) rotate(-2.5deg)}18%{-webkit-transform:translate(-9px, -4px) rotate(-0.5deg)}20%{-webkit-transform:translate(-8px, -8px) rotate(0.5deg)}22%{-webkit-transform:translate(-7px, 0px) rotate(-0.5deg)}24%{-webkit-transform:translate(-10px, -5px) rotate(-3.5deg)}26%{-webkit-transform:translate(1px, -10px) rotate(-0.5deg)}28%{-webkit-transform:translate(5px, 2px) rotate(-1.5deg)}30%{-webkit-transform:translate(-8px, 5px) rotate(-0.5deg)}32%{-webkit-transform:translate(-4px, 2px) rotate(1.5deg)}34%{-webkit-transform:translate(-9px, 8px) rotate(1.5deg)}36%{-webkit-transform:translate(8px, -3px) rotate(1.5deg)}38%{-webkit-transform:translate(-10px, 7px) rotate(-0.5deg)}40%{-webkit-transform:translate(-7px, 1px) rotate(-3.5deg)}42%{-webkit-transform:translate(-9px, 7px) rotate(0.5deg)}44%{-webkit-transform:translate(4px, 2px) rotate(-3.5deg)}46%{-webkit-transform:translate(8px, 4px) rotate(2.5deg)}48%{-webkit-transform:translate(-5px, -1px) rotate(-2.5deg)}50%{-webkit-transform:translate(-7px, 5px) rotate(-2.5deg)}52%{-webkit-transform:translate(-1px, -7px) rotate(-3.5deg)}54%{-webkit-transform:translate(-2px, -3px) rotate(0.5deg)}56%{-webkit-transform:translate(-4px, -6px) rotate(-2.5deg)}58%{-webkit-transform:translate(5px, 4px) rotate(-2.5deg)}60%{-webkit-transform:translate(-3px, 2px) rotate(-0.5deg)}62%{-webkit-transform:translate(-4px, -10px) rotate(-1.5deg)}64%{-webkit-transform:translate(-4px, -9px) rotate(-2.5deg)}66%{-webkit-transform:translate(3px, -8px) rotate(-1.5deg)}68%{-webkit-transform:translate(-5px, -2px) rotate(0.5deg)}70%{-webkit-transform:translate(-3px, -1px) rotate(-3.5deg)}72%{-webkit-transform:translate(9px, -2px) rotate(0.5deg)}74%{-webkit-transform:translate(7px, -6px) rotate(-2.5deg)}76%{-webkit-transform:translate(1px, 2px) rotate(-1.5deg)}78%{-webkit-transform:translate(-3px, -5px) rotate(-1.5deg)}80%{-webkit-transform:translate(-5px, 3px) rotate(2.5deg)}82%{-webkit-transform:translate(-2px, -1px) rotate(-3.5deg)}84%{-webkit-transform:translate(-8px, 7px) rotate(0.5deg)}86%{-webkit-transform:translate(-2px, 4px) rotate(-0.5deg)}88%{-webkit-transform:translate(4px, 7px) rotate(-3.5deg)}90%{-webkit-transform:translate(2px, 7px) rotate(0.5deg)}92%{-webkit-transform:translate(-3px, 6px) rotate(-3.5deg)}94%{-webkit-transform:translate(1px, 8px) rotate(1.5deg)}96%{-webkit-transform:translate(-8px, -2px) rotate(1.5deg)}98%{-webkit-transform:translate(-5px, 6px) rotate(0.5deg)}}
-
-        .shake-hard {
-          -webkit-animation-name: shake-hard;
-          -ms-animation-name: shake-hard;
-          animation-name: shake-hard;
-          -webkit-animation-duration: 100ms;
-          -ms-animation-duration: 100ms;
-          animation-duration: 100ms;
-          -webkit-animation-iteration-count: infinite;
-          -ms-animation-iteration-count: infinite;
-          animation-iteration-count: infinite;
-          -webkit-animation-timing-function: ease-in-out;
-          -ms-animation-timing-function: ease-in-out;
-          animation-timing-function: ease-in-out;
-          -webkit-animation-delay: 0s;
-          -ms-animation-delay: 0s;
-          animation-delay: 0s;
-          -webkit-animation-play-state: running;
-          -ms-animation-play-state: running;
-          animation-play-state: running;
+        
+        96% {
+            -webkit-transform: translate(-8px, -2px) rotate(1.5deg)
         }
+        
+        98% {
+            -webkit-transform: translate(-5px, 6px) rotate(0.5deg)
+        }
+    }
+    @-ms-keyframes shake-hard {
+        0% {
+            -webkit-transform: translate(0px, 0px) rotate(0deg)
+        }
+        
+        2% {
+            -webkit-transform: translate(5px, -4px) rotate(-2.5deg)
+        }
+        
+        4% {
+            -webkit-transform: translate(-10px, 5px) rotate(2.5deg)
+        }
+        
+        6% {
+            -webkit-transform: translate(0px, 5px) rotate(-3.5deg)
+        }
+        
+        8% {
+            -webkit-transform: translate(-6px, -10px) rotate(-1.5deg)
+        }
+        
+        10% {
+            -webkit-transform: translate(2px, -7px) rotate(1.5deg)
+        }
+        
+        12% {
+            -webkit-transform: translate(0px, 1px) rotate(0.5deg)
+        }
+        
+        14% {
+            -webkit-transform: translate(7px, -9px) rotate(-0.5deg)
+        }
+        
+        16% {
+            -webkit-transform: translate(-8px, 4px) rotate(-2.5deg)
+        }
+        
+        18% {
+            -webkit-transform: translate(-9px, -4px) rotate(-0.5deg)
+        }
+        
+        20% {
+            -webkit-transform: translate(-8px, -8px) rotate(0.5deg)
+        }
+        
+        22% {
+            -webkit-transform: translate(-7px, 0px) rotate(-0.5deg)
+        }
+        
+        24% {
+            -webkit-transform: translate(-10px, -5px) rotate(-3.5deg)
+        }
+        
+        26% {
+            -webkit-transform: translate(1px, -10px) rotate(-0.5deg)
+        }
+        
+        28% {
+            -webkit-transform: translate(5px, 2px) rotate(-1.5deg)
+        }
+        
+        30% {
+            -webkit-transform: translate(-8px, 5px) rotate(-0.5deg)
+        }
+        
+        32% {
+            -webkit-transform: translate(-4px, 2px) rotate(1.5deg)
+        }
+        
+        34% {
+            -webkit-transform: translate(-9px, 8px) rotate(1.5deg)
+        }
+        
+        36% {
+            -webkit-transform: translate(8px, -3px) rotate(1.5deg)
+        }
+        
+        38% {
+            -webkit-transform: translate(-10px, 7px) rotate(-0.5deg)
+        }
+        
+        40% {
+            -webkit-transform: translate(-7px, 1px) rotate(-3.5deg)
+        }
+        
+        42% {
+            -webkit-transform: translate(-9px, 7px) rotate(0.5deg)
+        }
+        
+        44% {
+            -webkit-transform: translate(4px, 2px) rotate(-3.5deg)
+        }
+        
+        46% {
+            -webkit-transform: translate(8px, 4px) rotate(2.5deg)
+        }
+        
+        48% {
+            -webkit-transform: translate(-5px, -1px) rotate(-2.5deg)
+        }
+        
+        50% {
+            -webkit-transform: translate(-7px, 5px) rotate(-2.5deg)
+        }
+        
+        52% {
+            -webkit-transform: translate(-1px, -7px) rotate(-3.5deg)
+        }
+        
+        54% {
+            -webkit-transform: translate(-2px, -3px) rotate(0.5deg)
+        }
+        
+        56% {
+            -webkit-transform: translate(-4px, -6px) rotate(-2.5deg)
+        }
+        
+        58% {
+            -webkit-transform: translate(5px, 4px) rotate(-2.5deg)
+        }
+        
+        60% {
+            -webkit-transform: translate(-3px, 2px) rotate(-0.5deg)
+        }
+        
+        62% {
+            -webkit-transform: translate(-4px, -10px) rotate(-1.5deg)
+        }
+        
+        64% {
+            -webkit-transform: translate(-4px, -9px) rotate(-2.5deg)
+        }
+        
+        66% {
+            -webkit-transform: translate(3px, -8px) rotate(-1.5deg)
+        }
+        
+        68% {
+            -webkit-transform: translate(-5px, -2px) rotate(0.5deg)
+        }
+        
+        70% {
+            -webkit-transform: translate(-3px, -1px) rotate(-3.5deg)
+        }
+        
+        72% {
+            -webkit-transform: translate(9px, -2px) rotate(0.5deg)
+        }
+        
+        74% {
+            -webkit-transform: translate(7px, -6px) rotate(-2.5deg)
+        }
+        
+        76% {
+            -webkit-transform: translate(1px, 2px) rotate(-1.5deg)
+        }
+        
+        78% {
+            -webkit-transform: translate(-3px, -5px) rotate(-1.5deg)
+        }
+        
+        80% {
+            -webkit-transform: translate(-5px, 3px) rotate(2.5deg)
+        }
+        
+        82% {
+            -webkit-transform: translate(-2px, -1px) rotate(-3.5deg)
+        }
+        
+        84% {
+            -webkit-transform: translate(-8px, 7px) rotate(0.5deg)
+        }
+        
+        86% {
+            -webkit-transform: translate(-2px, 4px) rotate(-0.5deg)
+        }
+        
+        88% {
+            -webkit-transform: translate(4px, 7px) rotate(-3.5deg)
+        }
+        
+        90% {
+            -webkit-transform: translate(2px, 7px) rotate(0.5deg)
+        }
+        
+        92% {
+            -webkit-transform: translate(-3px, 6px) rotate(-3.5deg)
+        }
+        
+        94% {
+            -webkit-transform: translate(1px, 8px) rotate(1.5deg)
+        }
+        
+        96% {
+            -webkit-transform: translate(-8px, -2px) rotate(1.5deg)
+        }
+        
+        98% {
+            -webkit-transform: translate(-5px, 6px) rotate(0.5deg)
+        }
+    }
+    @keyframes shake-hard {
+        0% {
+            -webkit-transform: translate(0px, 0px) rotate(0deg)
+        }
+        
+        2% {
+            -webkit-transform: translate(5px, -4px) rotate(-2.5deg)
+        }
+        
+        4% {
+            -webkit-transform: translate(-10px, 5px) rotate(2.5deg)
+        }
+        
+        6% {
+            -webkit-transform: translate(0px, 5px) rotate(-3.5deg)
+        }
+        
+        8% {
+            -webkit-transform: translate(-6px, -10px) rotate(-1.5deg)
+        }
+        
+        10% {
+            -webkit-transform: translate(2px, -7px) rotate(1.5deg)
+        }
+        
+        12% {
+            -webkit-transform: translate(0px, 1px) rotate(0.5deg)
+        }
+        
+        14% {
+            -webkit-transform: translate(7px, -9px) rotate(-0.5deg)
+        }
+        
+        16% {
+            -webkit-transform: translate(-8px, 4px) rotate(-2.5deg)
+        }
+        
+        18% {
+            -webkit-transform: translate(-9px, -4px) rotate(-0.5deg)
+        }
+        
+        20% {
+            -webkit-transform: translate(-8px, -8px) rotate(0.5deg)
+        }
+        
+        22% {
+            -webkit-transform: translate(-7px, 0px) rotate(-0.5deg)
+        }
+        
+        24% {
+            -webkit-transform: translate(-10px, -5px) rotate(-3.5deg)
+        }
+        
+        26% {
+            -webkit-transform: translate(1px, -10px) rotate(-0.5deg)
+        }
+        
+        28% {
+            -webkit-transform: translate(5px, 2px) rotate(-1.5deg)
+        }
+        
+        30% {
+            -webkit-transform: translate(-8px, 5px) rotate(-0.5deg)
+        }
+        
+        32% {
+            -webkit-transform: translate(-4px, 2px) rotate(1.5deg)
+        }
+        
+        34% {
+            -webkit-transform: translate(-9px, 8px) rotate(1.5deg)
+        }
+        
+        36% {
+            -webkit-transform: translate(8px, -3px) rotate(1.5deg)
+        }
+        
+        38% {
+            -webkit-transform: translate(-10px, 7px) rotate(-0.5deg)
+        }
+        
+        40% {
+            -webkit-transform: translate(-7px, 1px) rotate(-3.5deg)
+        }
+        
+        42% {
+            -webkit-transform: translate(-9px, 7px) rotate(0.5deg)
+        }
+        
+        44% {
+            -webkit-transform: translate(4px, 2px) rotate(-3.5deg)
+        }
+        
+        46% {
+            -webkit-transform: translate(8px, 4px) rotate(2.5deg)
+        }
+        
+        48% {
+            -webkit-transform: translate(-5px, -1px) rotate(-2.5deg)
+        }
+        
+        50% {
+            -webkit-transform: translate(-7px, 5px) rotate(-2.5deg)
+        }
+        
+        52% {
+            -webkit-transform: translate(-1px, -7px) rotate(-3.5deg)
+        }
+        
+        54% {
+            -webkit-transform: translate(-2px, -3px) rotate(0.5deg)
+        }
+        
+        56% {
+            -webkit-transform: translate(-4px, -6px) rotate(-2.5deg)
+        }
+        
+        58% {
+            -webkit-transform: translate(5px, 4px) rotate(-2.5deg)
+        }
+        
+        60% {
+            -webkit-transform: translate(-3px, 2px) rotate(-0.5deg)
+        }
+        
+        62% {
+            -webkit-transform: translate(-4px, -10px) rotate(-1.5deg)
+        }
+        
+        64% {
+            -webkit-transform: translate(-4px, -9px) rotate(-2.5deg)
+        }
+        
+        66% {
+            -webkit-transform: translate(3px, -8px) rotate(-1.5deg)
+        }
+        
+        68% {
+            -webkit-transform: translate(-5px, -2px) rotate(0.5deg)
+        }
+        
+        70% {
+            -webkit-transform: translate(-3px, -1px) rotate(-3.5deg)
+        }
+        
+        72% {
+            -webkit-transform: translate(9px, -2px) rotate(0.5deg)
+        }
+        
+        74% {
+            -webkit-transform: translate(7px, -6px) rotate(-2.5deg)
+        }
+        
+        76% {
+            -webkit-transform: translate(1px, 2px) rotate(-1.5deg)
+        }
+        
+        78% {
+            -webkit-transform: translate(-3px, -5px) rotate(-1.5deg)
+        }
+        
+        80% {
+            -webkit-transform: translate(-5px, 3px) rotate(2.5deg)
+        }
+        
+        82% {
+            -webkit-transform: translate(-2px, -1px) rotate(-3.5deg)
+        }
+        
+        84% {
+            -webkit-transform: translate(-8px, 7px) rotate(0.5deg)
+        }
+        
+        86% {
+            -webkit-transform: translate(-2px, 4px) rotate(-0.5deg)
+        }
+        
+        88% {
+            -webkit-transform: translate(4px, 7px) rotate(-3.5deg)
+        }
+        
+        90% {
+            -webkit-transform: translate(2px, 7px) rotate(0.5deg)
+        }
+        
+        92% {
+            -webkit-transform: translate(-3px, 6px) rotate(-3.5deg)
+        }
+        
+        94% {
+            -webkit-transform: translate(1px, 8px) rotate(1.5deg)
+        }
+        
+        96% {
+            -webkit-transform: translate(-8px, -2px) rotate(1.5deg)
+        }
+        
+        98% {
+            -webkit-transform: translate(-5px, 6px) rotate(0.5deg)
+        }
+    }
+    .shake-hard {
+        -webkit-animation-name: shake-hard;
+        -ms-animation-name: shake-hard;
+        animation-name: shake-hard;
+        -webkit-animation-duration: 100ms;
+        -ms-animation-duration: 100ms;
+        animation-duration: 100ms;
+        -webkit-animation-iteration-count: infinite;
+        -ms-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+        -webkit-animation-timing-function: ease-in-out;
+        -ms-animation-timing-function: ease-in-out;
+        animation-timing-function: ease-in-out;
+        -webkit-animation-delay: 0s;
+        -ms-animation-delay: 0s;
+        animation-delay: 0s;
+        -webkit-animation-play-state: running;
+        -ms-animation-play-state: running;
+        animation-play-state: running;
+    }
