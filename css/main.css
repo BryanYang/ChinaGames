@@ -64,6 +64,7 @@ header > div {
 }
 .headmenu_1 a {
     text-decoration: none;
+    color: #333333;
 }
 .headmenu_1 a:hover {
     color: #ff6600;
@@ -94,6 +95,7 @@ header a {
 }
 header .right a {
     margin-left: 25px;
+    text-decoration: none;
 }
 header .right a:hover {
     color: #ff6600;
@@ -196,7 +198,7 @@ header .right a:hover {
     width: 300px;
 }
 #search_btn {
-    height: 33px;
+    height: 32px;
     width: 40px;
     display: inline-block;
     background: url('../images/img_22.jpg') right;
@@ -224,8 +226,13 @@ header .right a:hover {
 }
 .guanggao {
     width: 100%;
-    background-color: rgb(255, 102, 0);
     margin-top: -30px;
+}
+.bg_container{
+
+ background-color: rgb(255, 102, 0);
+ width: 100%;
+ height: 35px;
 }
 .container_menu {
     margin: 0 auto;
@@ -619,6 +626,7 @@ menu li:hover {
     display: -webkit-flex;
     padding: 10px 0;
 }
+#specialGames{margin-top: 10px;}
 #specialGames a {
     display: inline-block;
     height: 30px;
