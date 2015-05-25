@@ -1,0 +1,83 @@
+	<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+	<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<script type="text/javascript" src="js/jquery-1.8.3.min.js"></script>
+	<link rel="Stylesheet" type="text/css" href="css/loginDialog.css" />
+
+	</head>
+	<body>
+
+	    <a href="#" id="example">登录</a>
+		
+	    <div id="LoginBox">
+	        <div class="row1">
+	           <a href="javascript:void(0)" title="关闭窗口" class="close_btn" id="closeBtn"><img src="images\loginimage\close.png"></a>
+	        </div>
+	        <div class="go">
+	        	<img src="images\loginimage\exchange.png"><a href="login.html">去登录</a>
+	        	<p>注册</p>
+	        </div>
+	                    <div class="registr2">
+                    <span>尊敬的<span style="color:#ff6600;font-size:12px;">xxx</span>用户</span>
+
+                 <div class="rowre">
+                     <div id="codebox1">
+                         <div id="inputBoxcd1">                           
+                              <input type="text" id="txtPhone" placeholder="关联手机或邮箱" />
+                              <div class="code1">获取验证码</div>
+                          </div>
+                    </div>
+                    <span>关联手机或邮箱后，可以在忘记密码时充值密码，并且
+                       便于中国手游网站举行活动时获取奖品</span>
+                </div>
+
+
+                  <div class="rowre">
+                     <div id="yanzheng">
+                         <div id="inputyanzheng">                           
+                              <input type="text" id="txtCode" placeholder="输入验证码" />
+                            
+                          </div>
+                    </div>
+                    <span>到关联邮箱收取中国手游发送的激活邮件，点击邮件正文中的激活连接，对邮箱进行激活</span>
+                </div>
+
+                 <div class="row3" id="tijiao">
+                <a href="#" id="tjtext">提交</a>
+                </div>
+                 <div class="row4" id="nextsay">
+                <a href="#" id="nstext">下次再说</a>
+                </div>
+                
+            </div>
+	       
+	    </div>
+
+		<script type="text/javascript">
+		$(function ($) {
+			//弹出登录
+			$("#example").hover(function () {
+				$(this).stop().animate({
+					opacity: '1'
+				}, 600);
+			}, function () {
+				$(this).stop().animate({
+					opacity: '0.6'
+				}, 1000);
+			}).on('click', function () {
+				$("body").append("<div id='mask'></div>");
+				$("#mask").addClass("mask").fadeIn("slow");
+				$("#LoginBox").fadeIn("slow");
+			});
+					
+			//关闭
+			$(".close_btn").hover(function () { $(this).css({ color: 'black' }) }, function () { $(this).css({ color: '#999' }) }).on('click', function () {
+				$("#LoginBox").fadeOut("fast");
+				$("#mask").css({ display: 'none' });
+			});
+		});
+		</script>	
+
+	</body>
+	</html>
