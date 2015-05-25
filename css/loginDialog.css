@@ -9,7 +9,30 @@ body{font-family: "Microsoft Yahei";}
 .go a{font-size: 12px;color: #999999;text-decoration: none;padding-left:8px;padding-top: -2px;}
 .go a:hover{text-decoration: underline;color: #ff6600}
 .go p{font-size: 18px;color: #333333;margin-top:20px;}
-.login, .registr{margin: 0 68px;}
+.login, .registr,.registr2{margin: 0 68px;}
+
+.registr2{position: relative;top:10px;}
+.registr2 span{font-size: 12px;color:#999999;}
+.rowre span{font-size:10px;}
+#codebox1 span{font-size: 12px;}
+#inputBoxcd1:hover{border: 1px solid #ff6600;}
+#inputBoxcd1{border:1px solid #d7d7d7;height:40px;float:left;margin-top: 10px;padding: 0px;}
+.code1{height: 40px;width:90px;background: #ff6600;font-size: 12px;color: #ffffff;float: right;text-align: center;line-height:40px;}
+#txtPhone{outline:medium;height:38px;width:216px;border:none;float:left; margin-left: 5px;font-family:"Microsoft Yahei";font-size: 12px; }
+#yanzheng span{font-size: 12px;width:100%;}
+#inputyanzheng:hover{border: 1px solid #ff6600;}
+#inputyanzheng{border:1px solid #d7d7d7;height:40px;margin-top:20px;padding: 0px;margin-bottom: 20px;}
+#txtCode{outline:medium;height:38px;border:none; margin-left: 5px;font-family:"Microsoft Yahei";font-size: 12px; }
+.row3{height:40px;background-color: #ff6600;margin-top: 10px;line-height: 40px;text-align: center;}
+.row3:hover{background-color: #ed6206}
+.row3 a{color: #ffffff;font-size: 12px;text-decoration: none;}
+.row4{height:40px;background-color: #cccccc;margin-top: 10px;line-height: 40px;text-align: center;}
+.row4:hover{background-color: #bbbbbb}
+.row4 a{color: #ffffff;font-size: 12px;text-decoration: none;}
+
+
+
+
 .tishi{height:16px;display:none;}
 .tishi span{font-size: 12px;color: #ff3300; padding-left: 5px;padding-top: -2px;}
 .close_btn{float:right;padding-right:4px;padding-top: 10px;}
